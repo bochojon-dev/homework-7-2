@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.counter {
+  background: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding: 36px 24px;
+  border-radius: 16px;
+}
+.app {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.counter h2 {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+button {
+  padding: 16px 24px;
+  border-radius: 12px;
+  background: rgb(14, 194, 14);
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.85;
+}
+button:active {
+  transform: scale(0.95);
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+button:disabled:hover {
+  opacity: 0.6;
+}
+button:disabled:active {
+  transform: scale(1);
+}
+.result {
+  min-width: 120px;
+  text-align: center;
+  background: coral;
+  padding: 18px 0;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 12px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons input {
+  padding: 12px;
+  outline: none;
+  border-radius: 8px;
+}
